@@ -1,0 +1,121 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  background: #04a1bf;
+  text-align: left;
+  height: 3000px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card-content {
+	margin: 30px 0px;
+	font-weight: bold;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+#card-title {
+  color: #fff;
+  text-transform: uppercase;
+	font-weight: 800;
+  padding-top: 10px;
+}
+
+p {
+  font-size: small;
+  font-weight: 500;
+  color: rgb(11, 12, 10);
+}
+
+#task {
+  width: 500px;
+  height: 25px;
+  border-radius: 4px;
+}
+
+.btn {
+  background-color: lightgreen;
+  /* border: none; */
+  width: 120px;
+  height: 28px;
+  margin-top: 4px;
+  border-radius: 5px;
+}
+
+.card-action {
+	margin: 30px 0px;
+	font-weight: bold;
+  margin-left: 45px;
+}
+
+span{
+  color: #fff;
+  font-weight: 100;
+}
+
+#filter {
+  width: 500px;
+  height: 25px;
+  border-radius: 4px;
+}
+
+#clear-task {
+  background-color: black;
+  color: white;
+  width: 150px;
+  height: 35px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  border-radius: 2px;
+}
+
+#main {
+  height: auto;
+  width: auto;
+}
+
+li {
+	list-style: none;
+	padding: 10px 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #025f70;
+	border-radius: 5px;
+	margin-bottom: 10px;
+  margin-right: 45px;
+  margin-left: -30px;
+  width: auto;
+	background: #4EB9CD;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+li:hover {
+	background: #76CFE0;
+}
+
+li > button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;
+}
+
+.done {
+  background: #51DF70 !important;
+	color: #00891E;
+}
+
+#card-sub {
+  font-size: 20px;
+}
